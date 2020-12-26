@@ -1,0 +1,28 @@
+.product {
+    padding: 20px;
+    display: flex;
+}
+
+.product .item {
+    box-shadow: rgba(0, 0, 0, 0.3) 0 5px 15px 0;
+    border-radius: var(--dimen-radius);
+    margin: 15px;
+    transition: var(--dimen-transition);
+}
+
+.product .item:hover {
+    box-shadow: var(--color-primary) 0 5px 15px 0;
+}
+
+.product .item .image {
+    height: 200px;
+    width: 100%;
+    border-radius: var(--dimen-radius);
+}
+
+.product .item .description {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 20px;
+    border-radius: var(--dimen-radius);
+}
